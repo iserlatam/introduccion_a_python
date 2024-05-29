@@ -33,17 +33,18 @@ Aquí va a encontrar todo el código, documentos y links de interés que se van 
 
 ### Algoritmos
 
-[PythonLists]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/listas]
-
-[PythonMatriz]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/tablas]
-
-[PythonDictionary]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/diccionarios]
 
 [Visualización paso a paso de estructuras de datos][DataEstructuraVisualization]
 
 [Visualizacion paso a paso de algoritmos de ordenamiento][SortingAlgorithms]
 
 [Algoritmos de ordenación gráficos][AlgorithmVisualization]
+
+[PythonLists]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/listas]
+
+[PythonMatriz]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/tablas]
+
+[PythonDictionary]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/diccionarios]
 
 [DataEstructuraVisualization]: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
