@@ -40,14 +40,14 @@ Aquí va a encontrar todo el código, documentos y links de interés que se van 
 
 [Algoritmos de ordenación gráficos][AlgorithmVisualization]
 
-[PythonLists]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/listas]
+[PythonLists]: https://www.programarya.com/Cursos/Python/estructuras-de-datos/listas
 
-[PythonMatriz]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/tablas]
+[PythonMatriz]: https://www.programarya.com/Cursos/Python/estructuras-de-datos/tablas
 
-[PythonDictionary]: [https://www.programarya.com/Cursos/Python/estructuras-de-datos/diccionarios]
+[PythonDictionary]: https://www.programarya.com/Cursos/Python/estructuras-de-datos/diccionarios
 
 [DataEstructuraVisualization]: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
-[SortingAlgorithms]: [https://www.toptal.com/developers/sorting-algorithms]
+[SortingAlgorithms]: https://www.toptal.com/developers/sorting-algorithms
 
-[AlgorithmVisualization]: [https://visualgo.net/en/]
+[AlgorithmVisualization]: https://visualgo.net/en/
