@@ -1,0 +1,18 @@
+Problema:
+Un profesor necesita una calculadora para calificarle a los alumnos de trigonometria
+
+Puntos claves:
+1. Interfaz sencilla e intuitiva
+2. Calcular razones trigonometricas
+3. Calcular promedio de un estudiante
+4. Promedio:
+    4.1 Recopilar notas de forma automática
+    4.2 Calcular esas notas en base a la lista previamente creada
+
+Algoritmo:
+1. Iniciar el programa. OK!
+2. Visualizar la Interfaz OK!
+3. Escoger una opcion disponible en el menú de inicio. OK!
+4. Realizar el procedimiento. OK!
+5. Recibir la respuesta por parte del programa OK!
+6. Cerrar el programa. OK!
