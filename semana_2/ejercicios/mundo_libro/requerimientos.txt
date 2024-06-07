@@ -1,0 +1,9 @@
+Nos ha contactado un cliente que se dedica a la venta de libros de distintas categorías, géneros,
+autores, precios y nacionalidades. 
+
+Actualmente, la librería se llama “mundo libro” y están teniendo mucho flujo de ventas por una 
+feria local de arte y literatura. Lo que necesitan, es un sistema que les permita seleccionar 
+el nombre del libro con sus detalles como precio, género, autor, nacionalidad, fecha de lanzamiento, 
+entre otros. El sistema debe poder filtrar por categoría, autor y rango de precios; 
+entregando los resultados de forma legible para ser posteriormente buscados desde el 
+nombre del libro y así cerrar la venta.
