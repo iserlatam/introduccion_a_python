@@ -5,13 +5,41 @@
 # Importaciones de paquetes, modulos y dependencias
 # from package import module
 
-# Libros
-from data.libros import libros
-
 # Clases
 from modules.classes import Libro
 
-coleccion_libros = []
+# Instanciamos nuestra clase principal que es la que interactuará con nuestra
+# base de datos
+modeloLibro = Libro
+
+# Función para obtener todos los libros a través de un modelo 
+def obtener_libros():
+    # Utilizamos el método listaDeLibros() para acceder a los datos
+    # almacenados en la carpeta /data, que simula una base de datos real 
+    libros = modeloLibro.listaDeLibros()
+    
+    # Recorremos los libros (lista)
+    for i in range(len(libros)):
+        print(f"Libro No. {i+1} = Nombre: {libros[i]["nombre"]} - Autor: {libros[i]["autor"]}")
+        
+    # print(libros)
+
+# Función para obtener un libro a través de un libro
+def obtener_libro():
+    resultadoLibro = modeloLibro.buscarLibro("1984")
+    resultadoLibroAvanzado = modeloLibro.buscarLibroAvanzado('1988')
+    
+    # if resultadoLibro == False:
+    #     print("No se encontró este libro")
+    # else:
+    #     print(resultadoLibro)
+        
+    # Manera corta
+    if resultadoLibroAvanzado:
+        print(resultadoLibroAvanzado)
+    else:
+        print('libro no encontrado')
+        
 
 # Función para agregar un nuevo libro a la colección
 def agregar_libro(coleccion, libro):
@@ -42,6 +70,9 @@ def buscar_libro_por_nombre(coleccion, nombre):
 def main():
     coleccion = []    
     # Código para la interacción con el usuario (añadir, filtrar, buscar libros, etc.)
+    # obtener_libros()
+    obtener_libro()
+    
 
 # Inicialización de clase __main__ para el renderizado del menu principal
 if __name__ == "__main__":
