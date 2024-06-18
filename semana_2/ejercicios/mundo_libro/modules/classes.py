@@ -7,33 +7,26 @@ class Libro:
         pass
     
     # Obtiene los libros existentes en nuestros datos y los imprime
-    def listaDeLibros():
+    def obtener_libros():
         return libros
         
-    def buscarLibro(libro):
-        libroTemp = 0
-        
-        # Recorrer lista de libros
-        for i in range(len(libros)):
-            # Validar si existe el libro
-            if libros[i]["nombre"] == libro:
-                libroTemp = libros[i]
-            else:
-                libroTemp = libroTemp
-        
-        if type(libroTemp) == 'int':
-            return False
-        else:
-            return libroTemp
-        
-    def buscarLibroAvanzado(libro):
+    def filtar_por_nombre(libro):
         
         for book in libros:
             if book["nombre"].lower() == libro.lower():
                 return book
             
         return None
-            
-    def busquedaGeneral(self, busqueda):
-        pass
+    
+    def filtrar_por_precio(precio):
+        return [book for book in libros if book["precio"] <= precio]
+
+    def filtrar_por_genero(genero):
+        return [book for book in libros if book["genero"].lower() == genero.lower()]
+
+    def filtrar_por_nacionalidad(nacionalidad):
+        return [book for book in libros if book["nacionalidad"].lower() == nacionalidad.lower()]
+
+    def filtrar_por_autor(autor):
+        return [book for book in libros if book["autor"].lower() == autor.lower()]
     
